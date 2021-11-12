@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 100 & display = swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  background-color:#2CB3F3;
+  font-family: 'Roboto',
+  sans-serif;
+}
+header{
+  height: 18vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titulo{
+  font-size: 3vw;
+}
+.div-paragrafo{
+  display: flex;
+  width: 100%;
+  height: 6vh;
+  align-items: center;
+  justify-content: center;
+}
+.paragrafo{
+  font-size: 3vh;
+}
+.section-finn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.cabeca{
+  background-color: #fff;
+  height: 80vh;
+  width: 64vw;
+  border-radius: 20% 20% 0 0;
+}
+.rosto{
+ background-color: #FFE1C9;
+ width: 42vw;
+ height: 70vh;
+ border-radius: 50%;
+ position: relative;
+ top:10%;
+ left: 17%;
+}
+.olho1{
+  background-color: #000;
+  height: 8vh;
+  width: 4vw;
+  border-radius: 50%;
+  position: absolute;
+  top:30%;
+  left: 20%;
+}
+.olho2 {
+  background-color: #000;
+  height: 8vh;
+  width: 4vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  left: 70%;
+}
+.formulario{
+  position: absolute;
+  top: 62%;
+  left: 17%;
+}
+.formulario-tipo{
+  width: 27vw;
+  height: 8vh;
+  border: 3px solid #000;
+  border-radius: 4%;
+}
+.div-botao{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+}
+.botao{
+  width: 16vw;
+  height: 11vh;
+  background-color: #55A603;
+  color: #fff;
+  font-size: 5vh;
+  border-bottom: 5px solid #000;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+  border-radius: 4%;
+  cursor: pointer;
+}
